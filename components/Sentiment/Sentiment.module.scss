@@ -1,0 +1,14 @@
+.sentiment {
+  text-align: right;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
+.positive {
+  color: $positive;
+}
+.negative {
+  color: $negative;
+}
+.neutral {
+  color: $neutral;
+}

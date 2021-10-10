@@ -1,0 +1,28 @@
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  &__body {
+    background: #fff;
+    width: auto;
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+}
+
+.backdrop {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+}
